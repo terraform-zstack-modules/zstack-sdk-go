@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"zstack.io/zstack-sdk-go/pkg/util/regutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/regutils"
 )
 
 func normalizeUSCurrency(currency string) string {

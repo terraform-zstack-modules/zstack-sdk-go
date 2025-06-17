@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"zstack.io/zstack-sdk-go/pkg/util/timeutils"
-	"zstack.io/zstack-sdk-go/pkg/util/utils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/timeutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/utils"
 )
 
 const (

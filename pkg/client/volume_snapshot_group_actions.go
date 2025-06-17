@@ -5,8 +5,8 @@ package client
 import (
 	"strings"
 
-	"zstack.io/zstack-sdk-go/pkg/param"
-	"zstack.io/zstack-sdk-go/pkg/view"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/view"
 )
 
 func (cli *ZSClient) CreateVolumeSnapshotGroup(params param.VolumeSnapshotGroupParam) (*view.VolumeSnapshotGroupView, error) {

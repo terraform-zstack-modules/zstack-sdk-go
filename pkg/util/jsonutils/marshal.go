@@ -9,10 +9,10 @@ import (
 
 	"github.com/kataras/golog"
 
-	"zstack.io/zstack-sdk-go/pkg/util/gotypes"
-	"zstack.io/zstack-sdk-go/pkg/util/reflectutils"
-	"zstack.io/zstack-sdk-go/pkg/util/timeutils"
-	"zstack.io/zstack-sdk-go/pkg/util/tristate"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/gotypes"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/reflectutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/timeutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/tristate"
 )
 
 func marshalSlice(val reflect.Value, info *reflectutils.StructFieldInfo, omitEmpty bool) JSONObject {

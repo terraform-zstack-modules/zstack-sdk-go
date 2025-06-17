@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
-	"zstack.io/zstack-sdk-go/pkg/util/sortedmap"
-	"zstack.io/zstack-sdk-go/pkg/util/utils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/sortedmap"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/utils"
 )
 
 func addQueryStringSeg(body JSONObject, segs []TextNumber, val []string) (JSONObject, error) {

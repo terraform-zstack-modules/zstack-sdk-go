@@ -24,10 +24,10 @@ import (
 	"github.com/fatih/color"
 	"moul.io/http2curl/v2"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
-	"zstack.io/zstack-sdk-go/pkg/util/gotypes"
-	"zstack.io/zstack-sdk-go/pkg/util/jsonutils"
-	"zstack.io/zstack-sdk-go/pkg/util/utils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/gotypes"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/jsonutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/utils"
 )
 
 type THttpMethod string

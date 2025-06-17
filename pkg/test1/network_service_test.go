@@ -5,7 +5,7 @@ package test
 import (
 	"testing"
 
-	"zstack.io/zstack-sdk-go/pkg/param"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
 )
 
 func TestQueryNetworkServiceProvider(t *testing.T) {

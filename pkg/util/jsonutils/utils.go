@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
 )
 
 func NewStringArray(arr []string) *JSONArray {

@@ -10,13 +10,13 @@ import (
 	"time"
 
 	"github.com/kataras/golog"
-	"zstack.io/zstack-sdk-go/pkg/errors"
-	"zstack.io/zstack-sdk-go/pkg/util/gotypes"
-	"zstack.io/zstack-sdk-go/pkg/util/reflectutils"
-	"zstack.io/zstack-sdk-go/pkg/util/sortedmap"
-	"zstack.io/zstack-sdk-go/pkg/util/timeutils"
-	"zstack.io/zstack-sdk-go/pkg/util/tristate"
-	"zstack.io/zstack-sdk-go/pkg/util/utils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/gotypes"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/reflectutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/sortedmap"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/timeutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/tristate"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/utils"
 )
 
 func (th *JSONValue) Unmarshal(obj interface{}, keys ...string) error {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"zstack.io/zstack-sdk-go/pkg/param"
-	"zstack.io/zstack-sdk-go/pkg/util/jsonutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/jsonutils"
 )
 
 func TestQueryCdpPolicy(t *testing.T) {

@@ -5,7 +5,7 @@ package jsonutils
 import (
 	"fmt"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
 )
 
 const (

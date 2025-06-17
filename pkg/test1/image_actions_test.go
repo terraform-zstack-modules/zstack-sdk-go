@@ -12,11 +12,11 @@ import (
 
 	"github.com/kataras/golog"
 
-	"zstack.io/zstack-sdk-go/pkg/client"
-	"zstack.io/zstack-sdk-go/pkg/param"
-	"zstack.io/zstack-sdk-go/pkg/util/httputils"
-	"zstack.io/zstack-sdk-go/pkg/util/multipart"
-	"zstack.io/zstack-sdk-go/pkg/util/progress"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/client"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/httputils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/multipart"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/progress"
 )
 
 func TestPageImage(t *testing.T) {

@@ -5,7 +5,7 @@ package jsonutils
 import (
 	"strings"
 
-	"zstack.io/zstack-sdk-go/pkg/util/sortedmap"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/sortedmap"
 )
 
 type writeSource interface {

@@ -3,7 +3,7 @@
 package jsonutils
 
 import (
-	"zstack.io/zstack-sdk-go/pkg/util/sortedmap"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/sortedmap"
 )
 
 func (dict *JSONDict) Equals(json JSONObject) bool {

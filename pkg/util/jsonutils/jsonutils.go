@@ -10,9 +10,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
-	"zstack.io/zstack-sdk-go/pkg/util/gotypes"
-	"zstack.io/zstack-sdk-go/pkg/util/sortedmap"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/gotypes"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/sortedmap"
 )
 
 type JSONObject interface {

@@ -5,8 +5,8 @@ package jsonutils
 import (
 	"reflect"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
-	"zstack.io/zstack-sdk-go/pkg/util/gotypes"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/gotypes"
 )
 
 var (

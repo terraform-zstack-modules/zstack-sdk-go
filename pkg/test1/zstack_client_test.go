@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/kataras/golog"
-	"zstack.io/zstack-sdk-go/pkg/client"
-	"zstack.io/zstack-sdk-go/pkg/util/jsonutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/client"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/jsonutils"
 )
 
 func TestZSClient_ValidateSession(t *testing.T) {

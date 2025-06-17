@@ -7,7 +7,7 @@ import (
 
 	"github.com/kataras/golog"
 
-	"zstack.io/zstack-sdk-go/pkg/client"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/client"
 )
 
 const (

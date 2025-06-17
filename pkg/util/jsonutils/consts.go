@@ -3,7 +3,7 @@
 package jsonutils
 
 import (
-	"zstack.io/zstack-sdk-go/pkg/util/reflectutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/reflectutils"
 )
 
 const (

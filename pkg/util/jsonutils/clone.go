@@ -5,8 +5,8 @@ package jsonutils
 import (
 	"reflect"
 
-	"zstack.io/zstack-sdk-go/pkg/util/sortedmap"
-	"zstack.io/zstack-sdk-go/pkg/util/utils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/sortedmap"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/utils"
 )
 
 func (th *JSONDict) Copy(excludes ...string) *JSONDict {

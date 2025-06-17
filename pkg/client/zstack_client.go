@@ -10,9 +10,9 @@ import (
 
 	"github.com/kataras/golog"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
-	"zstack.io/zstack-sdk-go/pkg/param"
-	"zstack.io/zstack-sdk-go/pkg/view"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/view"
 )
 
 type ZSClient struct {

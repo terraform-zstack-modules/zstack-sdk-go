@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"zstack.io/zstack-sdk-go/pkg/client"
-	"zstack.io/zstack-sdk-go/pkg/param"
-	"zstack.io/zstack-sdk-go/pkg/view"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/client"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/view"
 )
 
 func TestZSClient_PageVmNic(t *testing.T) {

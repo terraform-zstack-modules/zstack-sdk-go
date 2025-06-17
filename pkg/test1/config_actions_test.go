@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"zstack.io/zstack-sdk-go/pkg/client"
-	"zstack.io/zstack-sdk-go/pkg/param"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/client"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
 )
 
 func TestZSClient_QueryGlobalConfig(t *testing.T) {

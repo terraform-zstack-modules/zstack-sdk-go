@@ -3,7 +3,7 @@
 package client
 
 import (
-	"zstack.io/zstack-sdk-go/pkg/util/httputils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/httputils"
 )
 
 type AuthType string

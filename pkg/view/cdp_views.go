@@ -2,7 +2,7 @@
 
 package view
 
-import "zstack.io/zstack-sdk-go/pkg/param"
+import "github.com/terraform-zstack-modules/zstack-sdk-go/pkg/param"
 
 type CdpPolicyInventoryView struct {
 	BaseInfoView

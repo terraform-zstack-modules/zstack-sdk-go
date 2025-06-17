@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"zstack.io/zstack-sdk-go/pkg/errors"
-	"zstack.io/zstack-sdk-go/pkg/util/regutils"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/errors"
+	"github.com/terraform-zstack-modules/zstack-sdk-go/pkg/util/regutils"
 )
 
 func UtcNow() time.Time {
