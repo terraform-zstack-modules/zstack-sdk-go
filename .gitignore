@@ -1,3 +1,6 @@
 .idea
 .gradle
 .vscode
+
+# Ignore provider test file
+/pkg/test1/base_actions_test.go
