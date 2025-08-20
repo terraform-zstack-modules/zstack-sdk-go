@@ -10,7 +10,7 @@ require (
 	moul.io/http2curl/v2 v2.3.0
 )
 
-require github.com/kr/text v0.2.0 // indirect
+//require github.com/kr/text v0.2.0 // indirect
 
 require (
 	github.com/fatih/structs v1.1.0
